@@ -21,7 +21,10 @@ class SongsController < ApplicationController
     find_song
   end
   
-  def update
+  def update 
+    find_song 
+    @song.update 
+    redirect_to 
   
   private 
   
