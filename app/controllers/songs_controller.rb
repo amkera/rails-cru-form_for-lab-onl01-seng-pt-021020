@@ -24,7 +24,7 @@ class SongsController < ApplicationController
   def update 
     find_song 
     @song.update 
-    redirect_to 
+    redirect_to song_path(@)
   
   private 
   
